@@ -14,7 +14,7 @@
   <ul>
     <?php foreach($posts as $post) { ?>
       <li>
-          <a href="/formation/TP1/showController.php?id=<?=$post['id']?>">
+          <a href="/formation/TP1/index.php/show?id=<?=$post['id']?>">
             <?=$post['title']?>
           </a> 
       </li>
