@@ -13,16 +13,6 @@
   <body>  
   
     <h2>Insertion d'un article.</h2>
-   
-  
-  
-   <!--//1. se mettre en lien avec la couche modele (include model....)  pas besoin
-   // include "model/model.php";
-
-   //2. récupère des données si besoin est  pas besoin-->
-  
-   <!--//3. il appel la bonne vue <-- TODO -->
-  
 
   <form action="/formation/TP1/create.php" method="POST">
     <input type="text" name="title" value="un titre" />
